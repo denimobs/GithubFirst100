@@ -2,7 +2,7 @@
 
 # Sobre o projeto
 
-Liste os 100 primeiros repositorios do github com um link para acessá-los
+Listagem dos 100 primeiros repositorios do Github com link para acessá-los
 
 # Layout
 ![](screenshot/home_screen.gif)
@@ -19,7 +19,7 @@ utilizar o apk disponivel na raiz do projeto **AppDebug.apk**
 
 # Arquitetura usada
 ## Getx
-Getx foi utilizado para o state management, DI e roteamento do projeto
+Getx foi utilizado para o gerencialmento de estado, injeção de dependencias e roteamento do projeto
 
 ## organizaçao
 * services: Arquivos globais contendo um conjunto de açoes relacionadas que podem ser utilizadas em qualquer lugar da aplicaçao
