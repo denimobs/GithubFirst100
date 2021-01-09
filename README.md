@@ -15,7 +15,7 @@ Liste os 100 primeiros repositorios do github com um link para acessá-los
 ```
 
 ## Apk
-utilizar o apk disponivel na rais do projeto **AppDebug.apk**
+utilizar o apk disponivel na raiz do projeto **AppDebug.apk**
 
 # Arquitetura usada
 ## Getx
