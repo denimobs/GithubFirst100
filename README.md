@@ -1,16 +1,37 @@
-# git_first_100
+# GihubFirst100
 
-A new Flutter project.
+# Sobre o projeto
 
-## Getting Started
+Liste os 100 primeiros repositorios do github com um link para acessá-los
 
-This project is a starting point for a Flutter application.
+# Layout
+![](screenshot/home_screen.gif)
 
-A few resources to get you started if this is your first Flutter project:
+# Como executar o projeto
+## Linha de comando
+```bash
+ # na raiz do projeto executar
+ flutter run
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Apk
+utilizar o apk disponivel na rais do projeto **AppDebug.apk**
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Arquitetura usada
+## Getx
+Getx foi utilizado para o state management, DI e roteamento do projeto
+
+## organizaçao
+* services: Arquivos globais contendo um conjunto de açoes relacionadas que podem ser utilizadas em qualquer lugar da aplicaçao
+
+* models: DTOs utilizados para salvar os dados vindos da api
+
+* views/components: widgets comuns que sao usados em diversas paginas da aplicaçao
+
+* views/pages: widgets responsaveis por uma tela inteira, cada page possui um controller onde é armazenado funçoes e variaveis relacionadas somente a essa pagina como animaçoes e controles de TextField. como o app possue apenas uma tela a regra de negocio foi adicionada junto ao controller da tela por simplicidade.
+
+# Autor
+
+Denilson Amaral
+
+https://www.linkedin.com/in/denilson-amaral-3a1333191/
