@@ -1,0 +1,29 @@
+name: git_first_100
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio:
+  get:
+  connectivity:
+  oktoast:
+  flutter_spinkit:
+  url_launcher:
+  cached_network_image:
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
