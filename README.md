@@ -1,4 +1,4 @@
-# GihubFirst100
+# GithubFirst100
 
 # Sobre o projeto
 
